@@ -43,7 +43,7 @@ const Card = () => {
         </div>
         <div class="card">
             <div class="latest">LATEST</div>
-            <img src="src/img11.png" alt="Card Image 4"/>
+            <img src="./img/img11.png" alt="Card Image 4"/>
            <div class="content">
                 <h3>HEADPHONE</h3>
                 <div class="details">E-SPORTS</div>
