@@ -4,7 +4,7 @@ import './body4.css';
 const Body4 = () => {
   return (
     <div class="background">
-       <img src="src/img8.png"/>
+       <img src="./img/img8.png"/>
     </div>
   )
 }

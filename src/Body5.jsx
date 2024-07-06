@@ -4,7 +4,7 @@ import './body5.css';
 const Body5 = () => {
   return (
     <div class="images">
-      <img src="src/img7.png"/>
+      <img src="./img/img7.png"/>
     </div>
   )
 }

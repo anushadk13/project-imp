@@ -7,7 +7,7 @@ const Body3 = () => {
       <span className="heass2">ARCHVIZ</span>
       <div className="fork">
       <video autoPlay muted loop className="video">
-        <source src="src/Archviz.mp4" type="video/mp4" />
+        <source src="./img/Archviz.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       </div>

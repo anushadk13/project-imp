@@ -14,7 +14,7 @@ const Hoverr = () => {
       </div>
     </div>
     <div class="image-box">
-      <img src="src/img11.png" alt="Hero Image"/>
+      <img src="./img/img11.png" alt="Hero Image"/>
     </div>
   </div>
     </div>

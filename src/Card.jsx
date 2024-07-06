@@ -7,7 +7,7 @@ const Card = () => {
       <div class="container">
         <div class="card">
            <div class="latest">LATEST</div>
-           <img src="src/img11.png" alt="Card Image 1"/>
+           <img src="./img/img11.png" alt="Card Image 1"/>
            <div class="content">
                 <h3>HEADPHONE</h3>
                <div class="details">E-SPORTS</div>
@@ -19,7 +19,7 @@ const Card = () => {
         </div>
         <div class="card">
            <div class="latest">LATEST</div>
-           <img src="src/img11.png" alt="Card Image 2"/>
+           <img src="./img/img11.png" alt="Card Image 2"/>
             <div class="content">
                 <h3>HEADPHONE</h3>
                 <div class="details">E-SPORTS</div>
@@ -31,7 +31,7 @@ const Card = () => {
         </div>
        <div class="card">
             <div class="latest">LATEST</div>
-            <img src="src/img11.png" alt="Card Image 3"/>
+            <img src="./img/img11.png" alt="Card Image 3"/>
             <div class="content">
                 <h3>HEADPHONE</h3>
                 <div class="details">E-SPORTS</div>
