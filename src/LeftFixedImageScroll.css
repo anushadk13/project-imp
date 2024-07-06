@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+}
+
+.scrollingsd {
+    margin-top: 60px;
+}
+
+.image-section {
+    position: fixed;
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.text-section {
+    padding: 70px;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.section {
+    margin-bottom: 180px;
+}
+
+.section h2 {
+    color: darkgreen;
+}
+
+.custom-title {
+    display: inline-block;
+    position: relative;
+    font-size: 44px;
+    color: #ffffff;
+    margin-left: 100px;
+}

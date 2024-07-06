@@ -1,0 +1,9 @@
+.images img {
+    width: 1220px;
+    height: 950px;
+    margin-left: 300px;
+}
+
+.images {
+    background-color: #1e1e1e;
+}

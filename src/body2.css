@@ -1,0 +1,48 @@
+.stay-productive {
+    display: flex;
+    margin-left: 300px;
+}
+
+.stay-productive>img {
+    align-self: center;
+    height: auto;
+    width: 50%;
+}
+
+.stay-productive>.text {
+    margin-top: 5%;
+}
+
+.stay-productive>.text>h2 {
+    width: 50%;
+}
+
+.stay-productive>.text>p {
+    font-weight: 100;
+}
+
+.stay-productive>.text>a {
+    width: 100%;
+}
+
+.stay-productive>.text>a::after {
+    display: block;
+}
+
+@media (max-width: 1000px) {
+    .stay-productive {
+        margin-left: 5%;
+    }
+    .stay-productive>img {
+        width: calc(200px + 20%);
+    }
+    .stay-productive>.text>p,
+    .stay-productive>.text>h2 {
+        width: 85%;
+    }
+}
+
+.text {
+    background-color: rgb(3, 45, 3);
+    padding: 20px 25px;
+}

@@ -1,0 +1,93 @@
+:root {
+    --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Raleway", sans-serif;
+    --nav-font: "Poppins", sans-serif;
+}
+
+
+/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+
+ :root {
+    /* Background color for the entire website, including individual sections */
+    --default-color: #444444;
+    /* Default color used for the majority of the text content across the entire website */
+    --heading-color: #191919;
+    /* Color for headings, subheadings and title throughout the website */
+    --accent-color: #cc1616;
+    /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --contrast-color: #ffffff;
+    /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
+}
+
+
+/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+
+ :root {
+    --nav-color: #ffffff;
+    /* The default color of the main navmenu links */
+    --nav-hover-color: #cc1616;
+    /* Applied to main navmenu links when they are hovered over or active */
+    --nav-dropdown-background-color: #ffffff;
+    /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+    --nav-dropdown-color: #212529;
+    /* Used for navigation links of the dropdown items in the navigation menu. */
+    --nav-dropdown-hover-color: #cc1616;
+    /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
+
+
+/* Smooth scroll */
+
+ :root {
+    scroll-behavior: smooth;
+}
+
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    letter-spacing: 0.8px;
+    transition: 0.2s;
+}
+
+body {
+    color: var(--default-color);
+    background-color: black;
+    font-family: var(--default-font);
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+}
+
+.heading {
+    font-size: 20px;
+    text-align: center;
+}
+
+.head1 {
+    color: #1FEA00;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.head3 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.head2 {
+    color: #80837F;
+    margin-top: 0%;
+}

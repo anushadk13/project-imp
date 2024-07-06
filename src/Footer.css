@@ -1,0 +1,175 @@
+:root {
+    --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Raleway", sans-serif;
+    --nav-font: "Poppins", sans-serif;
+}
+
+
+/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+
+ :root {
+    /* Background color for the entire website, including individual sections */
+    --default-color: #444444;
+    /* Default color used for the majority of the text content across the entire website */
+    --heading-color: #191919;
+    /* Color for headings, subheadings and title throughout the website */
+    --accent-color: #cc1616;
+    /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --contrast-color: #ffffff;
+    /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
+}
+
+
+/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+
+ :root {
+    --nav-color: #ffffff;
+    /* The default color of the main navmenu links */
+    --nav-hover-color: #cc1616;
+    /* Applied to main navmenu links when they are hovered over or active */
+    --nav-dropdown-background-color: #ffffff;
+    /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+    --nav-dropdown-color: #212529;
+    /* Used for navigation links of the dropdown items in the navigation menu. */
+    --nav-dropdown-hover-color: #cc1616;
+    /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
+
+
+/* Smooth scroll */
+
+ :root {
+    scroll-behavior: smooth;
+}
+
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    letter-spacing: 0.8px;
+    transition: 0.2s;
+}
+
+body {
+    color: var(--default-color);
+    background-color: black;
+    font-family: var(--default-font);
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+#Footer
+--------------------------------------------------------------*/
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-top {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.spann {
+    font-size: 20px;
+    margin-bottom: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-top h2 {
+    font-size: 44px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.footer-top button {
+    background-color: #ffc107;
+    border: none;
+    padding: 15px 25px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.footer-social {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    display: flex;
+}
+
+.footer-social h3 {
+    margin-bottom: 10px;
+}
+
+.footer-social h4 {
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    color: rgb(71, 66, 66);
+    font-size: 54px;
+    margin-top: 180px;
+}
+
+.social-icons {
+    margin-left: 60px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    font-weight: 900;
+    margin-left: 40px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-links a {
+        margin: 10px 0;
+    }
+}
